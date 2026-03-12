@@ -9,10 +9,14 @@ description = "Statistical analysis toolkit for exploratory and reusable workflo
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
+    "jupyter>=1.1.1",
+    "lab>=8.6",
     "matplotlib>=3.9.4",
     "numpy>=2.0.2",
     "pandas>=2.3.0",
+    "scikit-learn>=1.6.1",
     "scipy>=1.13.1",
+    "seaborn>=0.13.2",
     "statsmodels>=0.14.2",
 ]
 
