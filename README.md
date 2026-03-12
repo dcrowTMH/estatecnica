@@ -10,6 +10,12 @@ package structure so the utilities are easier to maintain, extend, and reuse.
 The notebooks are mainly used as showcase material and as reminders of how the
 features should be used.
 
+Notebook layout:
+
+- `notebooks/showcase/time_series/` for time-series walkthroughs
+- `notebooks/showcase/statistics/` for statistical testing examples
+- `notebooks/experiments/` for exploratory work
+
 ## Environment
 
 This repository uses `uv` for dependency and environment management.
@@ -24,7 +30,7 @@ uv run python -m unittest tests.time_series.test_forecast
 uv run python -m unittest tests.time_series.test_analysis
 ```
 
-## Time-Series Usage
+## Time-Series Quick Start
 
 ### Load the toolkit
 
